@@ -12,9 +12,7 @@ Then write your JS code in the transformer. You can click **Preview** to get the
 
 In the following example, `transformer1` uses the data of star rating in `rating1` to calculate a score.
 
-{% hint style="warning" %}
 `{{ }}` is disallowed inside a transformer or JS query. `{{ }}` is only used for the purpose of single-line JS expression, whereas a transformer or JS query is for multiple lines of JS code.
-{% endhint %}
 
 ## Use cases
 

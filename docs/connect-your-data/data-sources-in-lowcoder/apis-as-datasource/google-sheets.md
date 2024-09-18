@@ -17,9 +17,7 @@ Follow the steps below:
    3. Select **JSON** as the key type.
    4. Click **CREATE** to download it.
 
-{% hint style="success" %}
 Now the service account key, in a JSON format, is downloaded to your device. Make sure to keep it somewhere safe.
-{% endhint %}
 
 ### Share your Google sheet
 
@@ -30,9 +28,7 @@ Navigate back to to [Google Sheets](https://docs.google.com/spreadsheets), and f
 3. Click **Share** at the top right and paste the copied `client_email` value to add a member with access.
 4. Select **Editor** as the role and click **Send**.
 
-{% hint style="success" %}
 When you see the notification **Access updated**, you have authorized this service account to edit your sheet.
-{% endhint %}
 
 ## Connect Google Sheets to Lowcoder
 

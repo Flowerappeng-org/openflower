@@ -22,22 +22,20 @@ Extension of Lowcoder for and with the Community happens mainly by the Plugins a
 * Plugin API of API Service
 * [Data-Source Plugins in the Node-Service](https://github.com/lowcoder-org/lowcoder/tree/main/server/node-service/src/plugins)
 
-{% hint style="success" %}
 We suggest looking first into the development of these plugins, as they offer a good abstraction that speeds up development and offers a good and fast value for the community.
-{% endhint %}
 
 ### Visual Component Plugin Builder
 
 The main steps are:
 
-* Fork of [this Repository](https://github.com/lowcoder-org/lowcoder-create-component-plugin)
+* Fork of [this Repository](https://github.com/Flowerappeng-org/flower)
 * Local installation & preparation
 * Developing & preview the Components
 * Publish the Components to NPM
 
 1. Forking of the Repository
 
-To ensure you can develop your Component Plugin including as your repository, please fork (update) our lowcoder-org/lowcoder-create-component-plugin repository first.&#x20;
+To ensure you can develop your Component Plugin including as your repository, please fork (update) our lowcoder-org/lowcoder-create-component-plugin repository first.
 
 Find here more information: [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 
@@ -118,7 +116,7 @@ yarn build --publish
 
 ## Lowcoder Marketplace
 
-Next to this direct code development contribution, we also encourage you to contribute smart solutions and reusable Apps and Modules on the [Lowcoder Marketplace](https://app.lowcoder.cloud/marketplace) so other users can see solution patterns and Application Building Blocks.&#x20;
+Next to this direct code development contribution, we also encourage you to contribute smart solutions and reusable Apps and Modules on the [Lowcoder Marketplace](https://app.lowcoder.cloud/marketplace) so other users can see solution patterns and Application Building Blocks.
 
 You can follow the [Guide for Apps & Modules to publish on the Marketplace](../../workspaces-and-teamwork/lowcoder-marketplace.md)
 
@@ -126,21 +124,21 @@ You can follow the [Guide for Apps & Modules to publish on the Marketplace](../.
 
 We feel honored to work with you together on Lowcoder as a Platform! A good start and procedure that allows a smooth development process is like this:
 
-1. [Fork the Repository](https://github.com/lowcoder-org/lowcoder/fork)
+1. [Fork the Repository](https://github.com/Flowerappeng-org/flower)
 2. Clone it into your local environment / IDE
 3. Create a workable local Development Environment
 4. Create your Feature-Branch from **/main** branch to get the latest stable Environment
 5. **Develop your magic and enjoy the ride!**
-6. Raise a PR / Merge Request to [**/dev branch**](https://github.com/lowcoder-org/lowcoder/tree/dev) of the Lowcoder Main Repository
+6. Raise a PR / Merge Request to **/dev branch** of the Lowcoder Main Repository
 7. Follow up if / when we have questions at your Merge Request
 
-Please ask us directly for any related questions so we can help you the fastest way. We kindly ask you to use our [Discord Server](https://discord.gg/An6PgWpegg) for these questions. Here, especially the [#contribute channel](https://discord.gg/An6PgWpegg).
+Please ask us directly for any related questions so we can help you the fastest way. We kindly ask you to use our Discord Server for these questions. Here, especially the #contribute channel.
 
 ### Frontend App
 
 #### Start a local backend server
 
-Simply run the below command to start a local backend server. This is the fasted way. The Backend typically changes less frequent, so you can just run the latest version&#x20;
+Simply run the below command to start a local backend server. This is the fasted way. The Backend typically changes less frequent, so you can just run the latest version
 
 ```bash
 docker run -d --name lowcoder -p 3000:3000 -v "$PWD/stacks:/lowcoder-stacks" lowcoderorg/lowcoder-ce
@@ -169,7 +167,7 @@ docker run -d --name lowcoder-dev -p 3000:3000 -v "$PWD/stacks:/lowcoder-stacks"
 
 As soon as the development server is ready you can access Lowcoder by [http://localhost:3000](http://localhost:3000). Now, you can start to develop locally.
 
-1. Check out the source code.&#x20;
+1. Check out the source code.
 
 ```bash
 git@github.com:your-org/lowcoder.git
@@ -230,15 +228,11 @@ spring:
       url: redis://localhost:6379
 ```
 
-{% hint style="info" %}
-Configure the local runtime: \
+Configure the local runtime:\
 ./api-service/lowcoder-server/src/main/resources/application-lowcoder.yml
-{% endhint %}
 
-{% hint style="warning" %}
 Add the VM Options:\
 \-Dpf4j.mode=development -Dpf4j.pluginsDir=lowcoder-plugins -Dspring.profiles.active=lowcoder -XX:+AllowRedefinitionToAddDeleteMethods --add-opens java.base/java.nio=ALL-UNNAMED
-{% endhint %}
 
 #### Using VS Code <a href="#unsing-vs-code" id="unsing-vs-code"></a>
 
@@ -264,14 +258,14 @@ Important is here the command -Dspring.profiles.active= - as it is responsible f
 
 ### Start the debug locally <a href="#start-the-debug-locally" id="start-the-debug-locally"></a>
 
-Make sure that the apllication settings file contains the full local configuration you need.&#x20;
+Make sure that the apllication settings file contains the full local configuration you need.
 
-The apllication settings file is named application-\<profile>.yaml and reside in server/api-service/lowcoder-server/src/main/resources.&#x20;
+The apllication settings file is named application-\<profile>.yaml and reside in server/api-service/lowcoder-server/src/main/resources.
 
 The profile relates to your setting in the launch file. For example: -Dspring.profiles.active=lowcoder would make sure, lowcoder seeks the right config at application-lowcoder.yaml
 
 Navigate to the file:\
-server/api-service/lowcoder-server/src/main/java/org/lowcoder/api/ServerApplication.java \
+server/api-service/lowcoder-server/src/main/java/org/lowcoder/api/ServerApplication.java\
 \
 This is the main class. Now you can use the IDE to "run" it or "debug it".
 
@@ -317,15 +311,11 @@ mvn clean package
 java -Dpf4j.mode=development -Dspring.profiles.active=lowcoder -Dpf4j.pluginsDir=lowcoder-plugins -jar lowcoder-server/target/lowcoder-server-1.0-SNAPSHOT.jar
 ```
 
-{% hint style="info" %}
 The main class is: com.lowcoder.api.ServerApplication
-{% endhint %}
 
 Now, you can check the status of the service by visiting [http://localhost:8080](http://localhost:8080) through your browser. By default, you should see an HTTP 404 error. (which, we know, is not the best welcome message ever).
 
-{% hint style="warning" %}
 If you run the Api-Service locally on Port 8080, remember the URL for the Frontend App would change to: LOWCODER\_API\_SERVICE\_URL=http://localhost:8080 yarn start
-{% endhint %}
 
 ### Node Service
 
@@ -336,7 +326,7 @@ Please read more information in the following guides:
 
 #### Preparation
 
-To develop and test Datasource Plugins locally in the Node-Service, you should have Node.js installed in Version from v14.18.0 or from v16.0.0.&#x20;
+To develop and test Datasource Plugins locally in the Node-Service, you should have Node.js installed in Version from v14.18.0 or from v16.0.0.
 
 #### Start of Development
 
@@ -368,7 +358,7 @@ yarn start
 
 #### Plugin Skeleton Helper for OpenAPI Services
 
-We have a helper script that enables you, based on an OpenAPI Specification, to bootstrap the development of a Datasource Plugin.&#x20;
+We have a helper script that enables you, based on an OpenAPI Specification, to bootstrap the development of a Datasource Plugin.
 
 If the data source you're going to develop as a plugin provides an [Open API Spec](https://en.wikipedia.org/wiki/OpenAPI\_Specification) definition file, then its plugin code can be quickly generated. Below is an example of generating Jira plugin code.
 

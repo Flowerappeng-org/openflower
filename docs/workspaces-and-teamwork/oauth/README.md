@@ -43,15 +43,8 @@ https://<your Lowcoder location>/org/<your org Id>/auth/login?redirectUrl=...
 
 In the Admin area of Lowcoder select Settings > Auth Providers. Here you see the list of currently active auth providers. At the beginning, you will always see the standard-provider "Email"
 
-{% hint style="warning" %}
 In Lowcoder, Auth Providers except Email are bound to the Workspace. That means, that per workspace you can have individual settings and Auth Provider.
-{% endhint %}
 
 <figure><img src="../../.gitbook/assets/OAuth Providers.png" alt=""><figcaption><p>the list of Auth Providers per Workspace can be different -exept the Standard Provider Email</p></figcaption></figure>
 
-
-
-{% hint style="info" %}
 As OAuth Providers are bound to a single Workspace, they will not appear on the general Sign In or Sign up screens, but only on the Workspace-related screens.
-{% endhint %}
-

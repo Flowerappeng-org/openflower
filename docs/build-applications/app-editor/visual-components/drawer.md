@@ -8,9 +8,7 @@ The following example builds a shopping cart using a drawer.
 
 When inserted by drag-and-drop operation, a **Drawer** floats on the right side (by default) of the main window. Then, you can add components onto the **Drawer** according to your needs. In the editing mode of a **Drawer**, other components on the canvas are not editable.
 
-{% hint style="info" %}
 When a drawer is closed, you can re-open it by clicking the corresponding label in the **Modals** tab in the left pane.
-{% endhint %}
 
 ### Position
 

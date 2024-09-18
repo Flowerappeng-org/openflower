@@ -59,9 +59,7 @@ The result returned can also be a [Promise](https://developer.mozilla.org/en-US/
 return query2.run()
 ```
 
-{% hint style="info" %}
 The `return` statement is not necessary for scenarios where you want to omit results.
-{% endhint %}
 
 ## Access data
 
@@ -80,9 +78,7 @@ In JS queries, you can use methods exposed by components to interact with UI com
 input1.setValue("Hello");
 ```
 
-{% hint style="warning" %}
 The `input1.setValue()` method (or other component methods) is asynchronous and returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/Promise) object. Accessing `input1.value` immediately after setting the value of `input1` does not return the updated value.
-{% endhint %}
 
 ## Run query
 

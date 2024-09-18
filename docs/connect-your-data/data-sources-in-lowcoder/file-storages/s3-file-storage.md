@@ -33,11 +33,9 @@ With the help of the file upload component, you can now gather the data that you
 * Text based Files like JSON or CSV
 * Binary Files
 
-{% hint style="info" %}
 Binary files are represented in the Browser as base64 encoding. However, after the transport to the S3 Bucket, they will be available as binary files.
-{% endhint %}
 
-From the possible actions of the S3 Datasource Plugin you can choose "Upload file" and fill in the settings.&#x20;
+From the possible actions of the S3 Datasource Plugin you can choose "Upload file" and fill in the settings.
 
 <figure><img src="../../../.gitbook/assets/Data Plugin  S3 File Upload.png" alt=""><figcaption></figcaption></figure>
 

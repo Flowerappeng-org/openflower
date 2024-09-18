@@ -2,9 +2,7 @@
 
 Since Lowcoder v2.4.0, a generic OAuth Provider has been introduced. The goal is to cover as many OAuth providers as possible without special implementation but give you, as an Admin, the freedom to connect to any OAuth Provider using a flexible configuration.
 
-{% hint style="info" %}
 As communicated and voted by the community, we introduced the functionality in v2.4.0 but are still optimizing it, based on your feedback. Latest by Lowcoder v2.5.x this function is stable. (We expect anyhow already before that version a stable function of it.)
-{% endhint %}
 
 OAuth Providers are configured individually per Workspace.
 
@@ -147,9 +145,7 @@ Meta Data describes the Auth Source, allowing you to influence the visual repres
 
 <figure><img src="../../.gitbook/assets/Settings  OAuth  Meta Data.png" alt="" width="563"><figcaption><p>Enter a Displayed Name, Category, Icon and a Description</p></figcaption></figure>
 
-{% hint style="danger" %}
 In Lowcoder v2.4.0 you must set the field "Source" to GENERIC
-{% endhint %}
 
 From Lowcoder v2.4.1, the field "Source" will be hidden and filled out automatically.
 
@@ -159,13 +155,9 @@ In Step 2, you can now set up the configuration Data for your OAuth Provider. We
 
 <figure><img src="../../.gitbook/assets/Settings  OAuth  Provider Configuration.png" alt="" width="563"><figcaption></figcaption></figure>
 
-{% hint style="danger" %}
 Scopes must be set with a space character between the scopes, not comma-separated.
-{% endhint %}
 
-{% hint style="info" %}
 Some providers do only support OAuth - but not (yet?) OpenID. This means that the User Introspection Endpoints /userinfo are not available. For this case you can activate or deactivate this Introspection. (This function comes into effect at Lowcoder v2.4.1)
-{% endhint %}
 
 ### Provider-Side Configuration
 
@@ -195,10 +187,6 @@ We introduce the possibility of mapping Data from OAuth providers to Lowcoder. W
 
 The second screen shows how the Avatar and Username come into effect after the Mapping.
 
-{% hint style="warning" %}
 In v2.4.0 we support mapping out of the JWT (access\_token) from the IDM. In future versions, we will also support the mapping of Attributes from the OpenID /userInfo endpoint.
-{% endhint %}
 
-{% hint style="info" %}
 In future versions of Lowcoder, we will also support Attribute Matching of Token Claims to User Groups and Roles.
-{% endhint %}

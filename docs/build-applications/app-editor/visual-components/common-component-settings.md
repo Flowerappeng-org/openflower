@@ -8,9 +8,7 @@ The visual Components of Lowcoder share some general Settings and Configurations
 
 The component Name is important as it is the same time the identifier to address a visual Component via Javascript or in any dynamic way.
 
-{% hint style="info" %}
 It makes sense to decide in general between [Snake- and Camel-Case](https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/). Kebab case is not suggested, as the "-" between words can be interpreted in Javascript as minus-operation in edge cases.
-{% endhint %}
 
 <figure><img src="../../../.gitbook/assets/App Editor  Component Name Definition.png" alt=""><figcaption><p>Make sure you give every component a self-speaking name</p></figcaption></figure>
 
@@ -36,7 +34,7 @@ Many Components have the possibility to show Labels for the user, so it is cleal
 
 #### Internationalization
 
-Based on the language information of the browser, one can translate text in Lowcoder on the fly.&#x20;
+Based on the language information of the browser, one can translate text in Lowcoder on the fly.
 
 <figure><img src="../../../.gitbook/assets/Internationalization  User Language.png" alt=""><figcaption><p>get the User-Language from the Browser</p></figcaption></figure>
 
@@ -106,7 +104,7 @@ Nearly every Component can get "hidden and shown" dynamically. This is useful to
 
 #### Vertical space of hidden Components
 
-When Components are hidden, they do not consume vertical space. This is a special ability, which comes with a small challenge in the Application Editor. The advantage is, that multiple Components could get dynamically switched (shown or hidden), so you can dynamically react to user inputs or interactions.&#x20;
+When Components are hidden, they do not consume vertical space. This is a special ability, which comes with a small challenge in the Application Editor. The advantage is, that multiple Components could get dynamically switched (shown or hidden), so you can dynamically react to user inputs or interactions.
 
 <figure><img src="../../../.gitbook/assets/App Editor  Hide Component placing 1.png" alt=""><figcaption><p>hidden Components does not consume vertical space, but can get selected.</p></figcaption></figure>
 
@@ -118,9 +116,7 @@ You can now place other components in the same vertical place as the hidden Comp
 
 <figure><img src="../../../.gitbook/assets/App Editor  Hide Component placing 3.png" alt=""><figcaption><p>Components that are hidden can pe placed vertically at the same position.</p></figcaption></figure>
 
-{% hint style="info" %}
 In Lowcoder v2.0.0 the fields "Hidden" and "Disabled" are unfortunately at different places in the Properties Panel across the components. We will fix and order this in a future version.
-{% endhint %}
 
 ### Event handlers
 
@@ -138,9 +134,7 @@ One of the powerful concepts of Lowcoder are the Event handlers. Based on User i
 * Open / Close (for collapsible Components)
 * Switch Tab (for Tabbed containers)
 
-{% hint style="info" %}
 You can find a list of Event Handlers here: [https://app.lowcoder.cloud/apps/648cd237a0308d4efcc64571/view](https://app.lowcoder.cloud/apps/648cd237a0308d4efcc64571/view)
-{% endhint %}
 
 When a Component supports User interaction Events, you can have one or multiple actions based on a single Event type or different Event types.
 
@@ -164,9 +158,7 @@ Each Event handler has an Action out of a list of possible Actions. Each action 
 
 #### Order of Event Actions
 
-{% hint style="info" %}
 In a future version of Lowcoder, we will make sure it is possible to change the order of the Event Handlers. As for now, it is not possible and you would need to plan the order of Event Actions if your App needs multiple Event Handlers for a single Component.
-{% endhint %}
 
 ### Style
 

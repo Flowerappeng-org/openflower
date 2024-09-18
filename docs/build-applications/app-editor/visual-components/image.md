@@ -10,13 +10,11 @@ Drag the **Image** component onto the canvas or into a **Container**. Click the 
 
 You can also insert an image via base64 encoded data. Ensure that the encoded image source starts with `data:image/PICTURE_FORMAT;base64,` or simply`data:image;base64,`.
 
-{% hint style="warning" %}
 Don't miss the comma at the end of the prefix:
 
 <mark style="background-color:yellow;">`data:image/PICTURE_FORMAT;base64`</mark><mark style="background-color:yellow;">**`,`**</mark><mark style="background-color:yellow;">`YOUR_BASE64_ENCODED_IMAGE_DATA`</mark>
 
 <mark style="background-color:yellow;">`data:image;base64`</mark><mark style="background-color:yellow;">**`,`**</mark><mark style="background-color:yellow;">`YOUR_BASE64_ENCODED_IMAGE_DATA`</mark>
-{% endhint %}
 
 ### Demo: upload and display an image
 

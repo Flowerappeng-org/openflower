@@ -10,11 +10,9 @@ On GitHub the creation of an OAuth Client Registration is comparatively simple.
 
 <figure><img src="../../.gitbook/assets/Github Client OAuth Settings.png" alt=""><figcaption><p>GitHub Client Registration Settings</p></figcaption></figure>
 
-After configuring the Callback URLs, you can "Generate a new client secret".&#x20;
+After configuring the Callback URLs, you can "Generate a new client secret".
 
-{% hint style="warning" %}
 Make sure you copy the client secret directly, as it is displayed only once. Later you cannot copy it again.
-{% endhint %}
 
 Now you go back to Lowcoder Settings > Auth Providers and click "Add OAuth Provider" and select GitHub from the list of Auth Providers.
 

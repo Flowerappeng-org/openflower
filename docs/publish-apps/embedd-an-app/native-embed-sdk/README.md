@@ -8,17 +8,13 @@ For instance, a React developer can easily update the state of a Lowcoder app ba
 
 The ability to interact with Lowcoder apps through state management, method calls, and event handling in React also simplifies the development process. Developers can leverage their existing knowledge of React's ecosystem to control and customize Lowcoder apps, reducing the learning curve and accelerating development timelines.
 
-## Lowcoder SDK usable imports&#x20;
+## Lowcoder SDK usable imports
 
-This is an overview list of exports available for developers using the Lowcoder SDK.&#x20;
+This is an overview list of exports available for developers using the Lowcoder SDK.
 
-
-
-{% hint style="warning" %}
-It is important to keep in mind, that this List was build during a reverse engineering attempt. We cannot guarantee the completeness. Also you will find at many Items that the description was guessed (by ChatGPT). \
+It is important to keep in mind, that this List was build during a reverse engineering attempt. We cannot guarantee the completeness. Also you will find at many Items that the description was guessed (by ChatGPT).\
 \
 We try step by step to add missing Items and optimize the documentation.
-{% endhint %}
 
 ### External Libraries
 
@@ -380,9 +376,7 @@ return new UICompBuilder(childrenMap, (props: {
 ... 
 </code></pre>
 
-{% hint style="info" %}
 The further code examples are just abstract examples to list the event handlers.
-{% endhint %}
 
 ### Available Event Handlers
 

@@ -21,15 +21,9 @@ First, select "Stream Query" as a new Query from the available Datasources. Stre
 
 As URL enter the WebSocket Server address ws:// (without) and wss:// (with SSL secured connection). From the moment you run this query, Lowcoder tries to establish a connection to the WebSocket Server. If successful, the specialty of WebSocket connections is, that they remain active and open till you disconnect the Dataquery / Lowcoder App.
 
-
-
-{% hint style="info" %}
 [https://www.piesocket.com](https://www.piesocket.com/) is a service that you can use to establish and use WebSocket Servers as a Service.
-{% endhint %}
 
-{% hint style="warning" %}
 Each time a message arrives in the open connection, the Lowcoder Query will fire the event "success", so you can bind an Event-Handler to process these messages.
-{% endhint %}
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-24 at 13.33.02.png" alt=""><figcaption></figcaption></figure>
 
@@ -37,7 +31,7 @@ Each time a message arrives in the open connection, the Lowcoder Query will fire
 // for example wss://ws.kraken.com
 ```
 
-#### Receive and Broadcast messages&#x20;
+#### Receive and Broadcast messages
 
 Now the connection is made and depending on the channel you may already receive data. Quite often it is however the case, that a Client needs to subscribe to a certain topic or room. To do so, but also simply to broadcast a message into the connection, you can use the new function broadcast(); This is a function of the WebSocket Datasource / Stream Query.
 

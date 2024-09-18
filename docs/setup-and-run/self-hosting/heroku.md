@@ -22,27 +22,21 @@ On the [Heroku Dashboard](https://dashboard.heroku.com/apps), go to the **Settin
 
 You can manage the environment variables of your app in the **Config Vars** section.
 
-{% hint style="info" %}
 For more help, see [Managing config vars](https://devcenter.heroku.com/articles/config-vars#managing-config-vars) in the Heroku documentation.
-{% endhint %}
 
 ### Install SSL Certificates
 
 You can configure the SSL Certificates of your app in the **SSL Certificates** section. Heroku provides [Automated Certificate Management (ACM)](https://devcenter.heroku.com/articles/automated-certificate-management) and [Manual Certificate](https://devcenter.heroku.com/articles/ssl#manually-uploading-certificates-and-intermediaries) options.
 
-Choose **Manual Certificate**, and you can install your SSL Certificates. A public certificate file usually ends in `.pem` or `.crt`.\
-
+Choose **Manual Certificate**, and you can install your SSL Certificates. A public certificate file usually ends in `.pem` or `.crt`.\\
 
 ### Customize domain names
 
 1. Click the **Add Domain** button in the **Domains** section.
-2. Fill in your **Domain name** and click **Next**.\
-
+2. Fill in your **Domain name** and click **Next**.\\
 3. Copy and paste the **DNS Target** provided by Heroku to complete the domain setup.
 
-{% hint style="info" %}
 For more help, see [Custom Domain Names for Apps](https://devcenter.heroku.com/articles/custom-domains) in the Heroku documentation.
-{% endhint %}
 
 ## Update using Heroku CLI
 

@@ -16,9 +16,7 @@ And now the Lowcoder SDK Scripts, as the last tags before the \</BODY> closing t
 <script type="module" src="https://unpkg.com/lowcoder-comps@latest/index.js"></script>
 ```
 
-{% hint style="warning" %}
 From version 2.4 on, you would only need to include the standard bundle file.
-{% endhint %}
 
 ```
 <script src="https://sdk.lowcoder.cloud/bundle.js"></script>

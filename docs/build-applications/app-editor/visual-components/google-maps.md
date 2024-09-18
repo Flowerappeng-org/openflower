@@ -22,11 +22,9 @@ Now you can select in the Component Properties the type "Map"
 
 You can use the Properties "Zoomlevel, Longitude, and Latitude" to define the first impression of the GeoMap when the App is displayed.
 
-In Version Lowcoder 2.1.x the eCharts Map is configurable like other eCharts by the "Options JSON"&#x20;
+In Version Lowcoder 2.1.x the eCharts Map is configurable like other eCharts by the "Options JSON"
 
-{% hint style="info" %}
 For more and deeper information check the eCharts documentation. [https://echarts.apache.org/en/api.html#echartsInstance.setOption](https://echarts.apache.org/en/api.html#echartsInstance.setOption)
-{% endhint %}
 
 As eCharts is already integrated into Lowcoder, you only need to prepare and set the Options-JSON Data. The configuration follows the standard eCharts notation.
 
@@ -110,7 +108,7 @@ In this case, the App-global function "mapValueToSize" is bound to the map setti
 
 ### Setting Geo-Markers & JavaScript Access
 
-In Version 2.1.x the possibility to place Geo-Markers on the map is possible via Javascript by accessing the maps object.&#x20;
+In Version 2.1.x the possibility to place Geo-Markers on the map is possible via Javascript by accessing the maps object.
 
 Here you can see the possibility to access the "gmap" object by the new function of the eChart Component "getMapInstance()". The gmap object is the well-known Google Maps Javascript Object, on which you can execute all typical operations.
 
@@ -130,8 +128,6 @@ renderMarker ();
 ### Google Maps API Key
 
 When you publish your app, an Google Maps API Key must be in place to display the App accordingly. Use [https://console.cloud.google.com/apis/dashboard](https://console.cloud.google.com/apis/dashboard) to create your API Key.
-
-
 
 <figure><img src="../../../.gitbook/assets/Google Maps APIs 0.png" alt=""><figcaption></figcaption></figure>
 

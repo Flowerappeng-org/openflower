@@ -11,9 +11,7 @@ Each option list has four properties.
 * **Disabled**: disable the option (the default value is `false`)
 * **Hidden**: hide the option (the default value is `false`)
 
-{% hint style="warning" %}
 When more than one option in one list uses the same value, only the first option is valid and thus displayed.
-{% endhint %}
 
 ## Manual mode
 

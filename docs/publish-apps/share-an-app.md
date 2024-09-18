@@ -39,7 +39,7 @@ There are three primary methods for sharing an application:
 
 ### Public to Marketplace
 
-"Public to Marketplace" is a special sharing case designed to showcase applications in a Lowcoder marketplace.&#x20;
+"Public to Marketplace" is a special sharing case designed to showcase applications in a Lowcoder marketplace.
 
 <figure><img src="../.gitbook/assets/App  Share Marketplace.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -53,7 +53,4 @@ The `LOWCODER_MARKETPLACE_PRIVATE_MODE` environment variable controls the visibi
 * **True**: Only logged-in users (Viewer, Editor, Owner) can see apps published on the local marketplace.
 * **False**: Apps published on the local marketplace can be seen by everyone, including Anonymous users.
 
-{% hint style="warning" %}
 Remember, you need to publish an App, so the **Public Sharing** or the **Public to Marketplace** Sharing has an effect.
-{% endhint %}
-

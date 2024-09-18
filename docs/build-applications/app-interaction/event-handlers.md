@@ -4,9 +4,7 @@ In Lowcoder, event handlers are responsible for collecting and processing events
 
 Set event handlers wisely to provide a reactive and responsive user experience (UX). For example, triggering a **get-all** query after **insert-new-data** query finishes enables table automatically refresh.
 
-{% hint style="info" %}
 You can add as many event handlers as you want for a single component or query, and these event handlers run concurrently.
-{% endhint %}
 
 ## Events
 
@@ -24,9 +22,7 @@ Running a query can result in success or failure, so queries have two events: **
 
 There are a number of event handler actions available in Lowcoder for handling different scenarios. Set them in the **Action** dropdown list in an event handler.
 
-{% hint style="info" %}
 See advanced on this page to know advanced settings.
-{% endhint %}
 
 ### Run query
 

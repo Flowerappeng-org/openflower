@@ -40,9 +40,7 @@ You can view the detailed data about the **List View** component, its items, the
 
 After binding valid data to **List View** component and designing its inside components, you can add data to these components. **List View** supports local variables `currentItem` and `i`. Notice that you only need to change data of the first row, and the same settings are applied to the other rows automatically.
 
-{% hint style="info" %}
 You can bind a static URL address to the **Image** component for image display; and because that URL address is static, the same image shows up in all rows.
-{% endhint %}
 
 ## Name items
 
@@ -68,9 +66,7 @@ By default, you can reference the value of each item within a list using variabl
 {{i+1}}. {{currentItem.book_name}}
 ```
 
-{% hint style="info" %}
 Circular dependency errors occur when you reference the data of a row by `listView.items[i]` from a component inside a **List View** component. It is recommended to use such reference only outside the list.
-{% endhint %}
 
 ## Pagination
 

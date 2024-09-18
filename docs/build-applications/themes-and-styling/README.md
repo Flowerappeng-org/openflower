@@ -45,8 +45,10 @@ Follow the steps below to include this function in your app.
 
 1. Drag and drop a **Select** component onto your canvas. Set the data value as follows.
 
-<pre class="language-Plain"><code class="lang-Plain"><strong>{{[{ id: "", name: "Default" }, ...theme.allThemes]}}
-</strong></code></pre>
+TODO
+
+```Plain
+```
 
 2. Set the labels and values as `{{item.name}}` and `{{item.id}}` respectively. Then, you can view the default theme and all other available themes in the current workspace.
 3. Insert a **Button** component onto your canvas to switch theme. Add an event to the button, select "Run JavaScript" as the action, and run `theme.switchTo()` method which takes the value of the **Select** component.
@@ -61,9 +63,7 @@ In the app editor, click ⚙️ on the left side-bar, select **Scripts and style
 
 For example, insert text component `text1`. Then use `.text1` as the element name and modify its CSS style.
 
-{% hint style="info" %}
 It is recommended to modify the component styles in **Properties** > **Style** because the DOM of an adjusted CSS style may change as the system iterates.
-{% endhint %}
 
 ### Preload CSS
 
@@ -186,7 +186,7 @@ Lowcoder always lives up to efficiency, security, and easy-to-use design.
 
 ### Hide UI components
 
-Set the hidden properties of components when necessary to avoid information overload. For example, when creating a suggestion collection form, you can set the input box as visible or hidden depending on the user's selection.&#x20;
+Set the hidden properties of components when necessary to avoid information overload. For example, when creating a suggestion collection form, you can set the input box as visible or hidden depending on the user's selection.
 
 To achieve this effect, set the hidden property of the component `textArea1` with the code:
 

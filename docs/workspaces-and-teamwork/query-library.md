@@ -20,21 +20,19 @@ If available based on the Datasource, helping Metadata will get displayed on the
 
 There are cases where you want to pass dynamic parameters to a query. Lowcoder supports that by introducing input configuration of a query.
 
-Click **Add** in the **Inputs** tab in the right upper pane to add input parameters.&#x20;
+Click **Add** in the **Inputs** tab in the right upper pane to add input parameters.
 
 With the template notation `{{}}`, you can use the dynamic Input parameters in the Query. To test the Input Parameter, you can set test values that are directly used in the Query.
 
 <figure><img src="../.gitbook/assets/Query Library  Input Parameter.png" alt=""><figcaption><p>Using Input Parameters for dynamic Queries.</p></figcaption></figure>
 
-{% hint style="warning" %}
 You can only reference variables instead of writing JavaScript code in `{{}}`.
-{% endhint %}
 
 To edit the name and description of the input variables, click `...` and select **Edit** or directly click the title of the variable.
 
 ## 2) Publish Queries
 
-When you finish writing a version of the query, you can publish it. Click `···` > **Publish**.&#x20;
+When you finish writing a version of the query, you can publish it. Click `···` > **Publish**.
 
 <figure><img src="../.gitbook/assets/Query Library  Publish Query.png" alt=""><figcaption><p>Queries need to get published to be usable in Apps</p></figcaption></figure>
 
@@ -66,9 +64,7 @@ Select a query from the library from the dropdown list, choose your desired vers
 
 You can export a Query as a JSON Definition file. This helps to use a Query across different Lowcocer installations for example, or simply as a Backup.
 
-{% hint style="info" %}
 Be aware, that the connected Datasource of a Query may have different security credentials at different installation locations.
-{% endhint %}
 
 <figure><img src="../.gitbook/assets/Query Library  Export Query.png" alt=""><figcaption><p>With "Export to JSON" you can backup a query or store it externally to use it in other Lowcoder Installations.</p></figcaption></figure>
 

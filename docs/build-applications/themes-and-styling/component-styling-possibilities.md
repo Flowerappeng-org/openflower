@@ -15,14 +15,8 @@ Since Lowcoder 2.3.0 we support more style attributes.
 
 Here are some interactive Demos as examples.
 
-{% embed url="https://app.supademo.com/demo/FWO1CpYQeBSYStJjvi_DM" %}
-Text Styling for Standard Texts (Markdown-Type has own styling support)
-{% endembed %}
+TODO https://app.supademo.com/demo/FWO1CpYQeBSYStJjvi\_DM Text Styling for Standard Texts (Markdown-Type has own styling support)
 
-{% embed url="https://app.supademo.com/demo/C0xlbDTUZeRDX0EYhv77s" %}
-Container Styling is detailed for Header, Body and Footer
-{% endembed %}
+TODO https://app.supademo.com/demo/C0xlbDTUZeRDX0EYhv77s Container Styling is detailed for Header, Body and Footer
 
-{% embed url="https://app.supademo.com/demo/oqryqCpi0mAG2oLGj5ypd" %}
-Better Styling Support for Modals
-{% endembed %}
+TODO https://app.supademo.com/demo/oqryqCpi0mAG2oLGj5ypd Better Styling Support for Modals

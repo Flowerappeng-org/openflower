@@ -28,9 +28,7 @@ cp -rp lowcoder-stacks lowcoder-stacks.backup
 
 ### 3) Run upgrade-mongo-4x-to-5x docker compose file
 
-{% file src="../../.gitbook/assets/upgrade-mongo-4x-to-5x.yaml" %}
-Update MongoDB from v4 to v5
-{% endfile %}
+![Update MongoDB from v4 to v5](../../.gitbook/assets/upgrade-mongo-4x-to-5x.yaml)
 
 ```bash
 docker-compose -f upgrade-mongo-4x-to-5x.yaml up -d && sleep 30
@@ -50,9 +48,7 @@ docker-compose -f upgrade-mongo-4x-to-5x.yaml down
 
 ### 6) Run upgrade-mongo-5x-to-6x docker compose file
 
-{% file src="../../.gitbook/assets/upgrade-mongo-5x-to-6x.yaml" %}
-Update MongoDB from v5 to v6
-{% endfile %}
+![Update MongoDB from v5 to v6](../../.gitbook/assets/upgrade-mongo-5x-to-6x.yaml)
 
 ```bash
 docker-compose -f upgrade-mongo-5x-to-6x.yaml up -d && sleep 30
@@ -64,7 +60,7 @@ docker-compose -f upgrade-mongo-5x-to-6x.yaml up -d && sleep 30
 docker exec mongodb-6 /usr/bin/mongosh --eval 'use admin' --eval 'db.adminCommand( { setFeatureCompatibilityVersion: "6.0" } )'
 ```
 
-### 8) Stop and remove MongoDB 6 Update-Container&#x20;
+### 8) Stop and remove MongoDB 6 Update-Container
 
 ```bash
 docker-compose -f upgrade-mongo-5x-to-6x.yaml down
@@ -72,9 +68,7 @@ docker-compose -f upgrade-mongo-5x-to-6x.yaml down
 
 ### 9) Run upgrade-mongo-6x-to-7x docker compose file
 
-{% file src="../../.gitbook/assets/upgrade-mongo-6x-to-7x.yaml" %}
-Update MongoDB from v6 to v7
-{% endfile %}
+![Update MongoDB from v6 to v7](../../.gitbook/assets/upgrade-mongo-6x-to-7x.yaml)
 
 ```bash
 docker-compose -f upgrade-mongo-6x-to-7x.yaml up -d && sleep 30

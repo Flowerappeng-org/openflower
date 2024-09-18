@@ -38,9 +38,7 @@ You can also use GitHub Flavored Markdown (GFM) extensions for additional syntax
 
 In Lowcoder, you can use most HTML tags and properties. For more information, see [Embed HTML in Markdown](https://www.markdownguide.org/basic-syntax/#html).
 
-{% hint style="warning" %}
 For security reasons, a few HTML tags including **iframe** and **script** are not permitted in Lowcoder.
-{% endhint %}
 
 ### Appendix: Supported HTML tags
 

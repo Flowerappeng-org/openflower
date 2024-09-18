@@ -2,9 +2,7 @@
 
 In Lowcoder, you can design custom components using React.js library to satisfy specific needs when building your app. The custom component can be static or dynamic, but either requires coding.
 
-{% hint style="info" %}
 If you consider the custom component you are crafting suits general use cases, contact us and we are happy to do coding.
-{% endhint %}
 
 ## Prerequisites
 
@@ -15,9 +13,7 @@ If you consider the custom component you are crafting suits general use cases, c
 
 Drag a **Custom component** onto the canvas. By default, Lowcoder adds a title box, a text box, and two buttons into it, as shown below. You can modify **Data** and **Code** in the **Properties** pane to tailor it according to your requirements.
 
-{% hint style="info" %}
 Click the border instead of the inside area to select a **Custom component** and display its property settings.
-{% endhint %}
 
 ### Data
 

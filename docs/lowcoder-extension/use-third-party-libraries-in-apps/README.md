@@ -37,22 +37,15 @@ return Papa.parse("name|age\nJohn Doe|30\nJane Doe|25", {delimiter: "|"})
 
 Lowcoder supports setting up preloaded JavaScript and libraries, which can either be imported for individual apps or the whole workspace.
 
-{% hint style="danger" %}
-Only libraries using the [UMD (Universal Module Definition)](https://github.com/umdjs/umd) approach are supported.&#x20;
-{% endhint %}
+Only libraries using the [UMD (Universal Module Definition)](https://github.com/umdjs/umd) approach are supported.
 
-{% hint style="success" %}
 As soon as imported/bound to an App or workspace, Lowcoder manages the pre-loading of these libraries automatically in the editor and app view.
-{% endhint %}
 
 * **App-level** libraries get loaded only in the app where they were defined. This means a library imported to app A is not loaded for app B. The reverse is also true. A library imported for app B is not available to app A unless it is explicitly imported to app A as well.
 * **Workspace-level** libraries will be loaded when you open any application in your workspace. All apps can access (and will load automatically) those libraries.
 
-{% hint style="warning" %}
 importing third-party libraries can impact app performance, especially when you have complex JavaScript functions. Decide carefully to import on the App-level or on Workspace-level
-{% endhint %}
 
-{% hint style="info" %}
 **Tips you should know before setting up libraries:**
 
 * External libraries are loaded and run in the browser.
@@ -86,7 +79,6 @@ importing third-party libraries can impact app performance, especially when you 
     <mark style="background-color:yellow;">`Navigator`</mark>
 
     <mark style="background-color:yellow;">`MutationObserver`</mark>
-{% endhint %}
 
 Now let's take **cowsay** as an example and import it at the app level and the workspace level.
 
@@ -94,20 +86,17 @@ Now let's take **cowsay** as an example and import it at the app level and the w
 * Unpkg link: [https://unpkg.com/cowsay@1.5.0/build/cowsay.umd.js](https://unpkg.com/cowsay@1.5.0/build/cowsay.umd.js)
   * JSDeliver link: [https://cdn.jsdelivr.net/npm/cowsay@1.6.0/build/cowsay.umd.min.js](https://cdn.jsdelivr.net/npm/cowsay@1.6.0/build/cowsay.umd.min.js)
 
-{% hint style="info" %}
-You can check popular CDNs if they host your desired library as a minified package.\
-
+You can check popular CDNs if they host your desired library as a minified package.\\
 
 [https://jsdelivr.com](https://www.jsdelivr.com/)
 
 [https://cdnjs.com](https://cdnjs.com/)
 
 [https://unpkg.com](https://unpkg.com/)
-{% endhint %}
 
 ### Import / bind at the app level
 
-Navigate to the settings page and then click the plus sign **+** under the **JavaScript library** tab. Paste the **library** link and click **Add New**.  Lowcoder will now check, if the external library will be compatible and securely usable.
+Navigate to the settings page and then click the plus sign **+** under the **JavaScript library** tab. Paste the **library** link and click **Add New**. Lowcoder will now check, if the external library will be compatible and securely usable.
 
 You can also click the download icon to quickly download any recommended JS library.
 
@@ -130,13 +119,11 @@ You should see something similar to the image below after successfully importing
 
 ![](<../../.gitbook/assets/CleanShot 2023-07-31 at 20.46.26.png>)
 
-{% hint style="danger" %}
-Imported external libraries are bound to the window object. \
+Imported external libraries are bound to the window object.\
 \
 cowsay.say(...) will not work\
 \
 window.cowsay.say(...) - does the job.
-{% endhint %}
 
 ### Import/bind at the workspace level
 

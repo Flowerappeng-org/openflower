@@ -1,14 +1,14 @@
 # Lowcoder Marketplace
 
-The Lowcoder Application Marketplace is a platform where the Lowcoder Community comes together to share and explore applications and modules.&#x20;
+The Lowcoder Application Marketplace is a platform where the Lowcoder Community comes together to share and explore applications and modules.
 
-It's the spot for app developers and business people to find innovative solutions in Lowcoder that can help streamline operations and enhance project outcomes. Here, users can contribute their own creations, tapping into a pool of shared knowledge and resources.&#x20;
+It's the spot for app developers and business people to find innovative solutions in Lowcoder that can help streamline operations and enhance project outcomes. Here, users can contribute their own creations, tapping into a pool of shared knowledge and resources.
 
 For us It's all about harnessing the power of collaboration to bring the best out of the Lowcoder platform, making it easier for everyone to achieve their goals with speed of light.
 
 ## Global and Local App Marketplace
 
-The place where Apps are built and shared on the Marketplace of [app.lowcoder.cloud](https://app.lowcoder.cloud), we call the "global Marketplace".&#x20;
+The place where Apps are built and shared on the Marketplace of [app.lowcoder.cloud](https://app.lowcoder.cloud), we call the "global Marketplace".
 
 If you operate a self-hosted installation you will be able to see and use the Apps from the global Marketplace always. However, you can share apps in a local Marketplace too, which is only available across all workspaces of your self-hosted installation.
 
@@ -16,25 +16,21 @@ In self-hosted installations, both Marketplaces are available and show the apps 
 
 ## Use Apps from Marketplace
 
-{% embed url="https://app.supademo.com/demo/FAj2tiD2WnnveGkLUW4A8" %}
+TODO https://app.supademo.com/demo/FAj2tiD2WnnveGkLUW4A8
 
 ## Publish Apps to Marketplace
 
-{% embed url="https://app.supademo.com/demo/me6zeg4Oe9GCKtAiMWTCu" %}
+TODO https://app.supademo.com/demo/me6zeg4Oe9GCKtAiMWTCu
 
-{% hint style="info" %}
 If you publish your App in the Lowcoder Editor on [app.lowcoder.cloud](https://app.lowcoder.cloud), your App will be listed on the "global Marketplace" and every Lowcoder User can see and use the App.
-{% endhint %}
 
-{% hint style="warning" %}
 If you publish your App in the Lowcoder Editor on your self-hosted Installation, only Users inside your self-hosted Installation can see and use these Apps.
-{% endhint %}
 
 ## Adding Title, Description, Category and Icon
 
 In the left App-Settings Menu, you can add Title, Description, Category, and an Icon to your App, so the display on the Marketplace is informative.
 
-{% embed url="https://app.supademo.com/demo/KsbwqBCpWK6OZascdMI-E" %}
+TODO https://app.supademo.com/demo/KsbwqBCpWK6OZascdMI-E
 
 ## Before you publish your App to the Marketplace
 

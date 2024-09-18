@@ -2,9 +2,9 @@
 
 ### KeyCloak as Identity Provider
 
-To use KeyCloak as an Auth Provider, you must install and maintain an own installation of KeyCloak.  A docker installation is fast achieved.
+To use KeyCloak as an Auth Provider, you must install and maintain an own installation of KeyCloak. A docker installation is fast achieved.
 
-[https://www.keycloak.org/getting-started/getting-started-docker](https://www.keycloak.org/getting-started/getting-started-docker)&#x20;
+[https://www.keycloak.org/getting-started/getting-started-docker](https://www.keycloak.org/getting-started/getting-started-docker)
 
 In KeyCloak you have to set up first a "Realm". This is a tenant within KeyCloak. Select (or create) your Realm with the top left corner menu.
 
@@ -22,9 +22,7 @@ Make sure the "Standard Flow" is activated, as also "Client authentication" and 
 
 Configure the Lowcoder redirect URLs.
 
-{% hint style="info" %}
 For the cloud, the "Valid redirect URI" is https://app.lowcoder.cloud
-{% endhint %}
 
 <figure><img src="../../.gitbook/assets/KeyCloak Client Setup 3.png" alt=""><figcaption></figcaption></figure>
 
@@ -44,9 +42,7 @@ in Lowcoder, go to Settings > OAuth Provider and select "KeyCloak" in the "Add O
 
 Now you can enter all settings for KeyCloak
 
-{% hint style="info" %}
 Instance ID is the Base URL of your KeyCloak Installation
-{% endhint %}
 
 <figure><img src="../../.gitbook/assets/KeyCloak Setup.png" alt=""><figcaption></figcaption></figure>
 
@@ -54,15 +50,9 @@ You can also change settings later.
 
 <figure><img src="../../.gitbook/assets/KeyCloak Settings.png" alt=""><figcaption></figcaption></figure>
 
-
-
-{% hint style="warning" %}
 The minimal scope to setup is "offline\_access openid".
-{% endhint %}
 
 Thats it! Now you can use KeyCloak to offer your Users to Sign in and Sign up with KeyCloak.
-
-
 
 <figure><img src="../../.gitbook/assets/KeyCloak Sign in.png" alt=""><figcaption></figcaption></figure>
 

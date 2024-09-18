@@ -66,6 +66,4 @@ Keyboard shortcuts in the Text editor.
 
 You can define custom keyboard shortcuts at app-level. Go to ⚙️ on the left side-bar > **App settings** > **Custom shortcuts**. Click **+ Add** to add new shortcuts for specific actions. Then, you can click a custom shortcut to midify it or click the three dots `···` to delete it.
 
-{% hint style="info" %}
 Lowcoder keyboard shortcuts are better set to avoid conflicts with the browser's keyboard shortcuts, in case they can not be successfully triggered.
-{% endhint %}

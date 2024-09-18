@@ -6,9 +6,7 @@ Lowcoder stores your credentials securely and does not store any data from your 
 
 ## Connect to a new data source
 
-{% hint style="info" %}
 Check out IP allowlist and add Lowcoder IP addresses to your data source allowlist when needed.
-{% endhint %}
 
 Follow the steps below:
 

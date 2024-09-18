@@ -22,9 +22,7 @@ There are cases where you want to pass dynamic parameters to a query. Lowcoder s
 
 Click **Add** in the **Inputs** tab in the right pane to add input parameters. Reference them using `{{}}` in the query, then you can input test values to test execution of the query.
 
-{% hint style="warning" %}
 You can only reference variables instead of writing JavaScript code in `{{}}`.
-{% endhint %}
 
 To edit the name and description of the input variables, click `...` and select **Edit** or directly click the title of the variable.
 

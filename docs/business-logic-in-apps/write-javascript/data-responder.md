@@ -4,9 +4,7 @@ When building an app, you can set events for the components in order to listen t
 
 However, there lacks similar events for some data changes, such as the changes of temporary states, transformers, or query results. Data responders are designed for these cases and allow you to listen and respond to any data change.
 
-{% hint style="info" %}
 Events for data responders are more general than the events that listen to data changes such as content change, row select change, etc.
-{% endhint %}
 
 ## Listen to data changes
 

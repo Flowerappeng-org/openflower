@@ -2,8 +2,6 @@
 
 Lowcoder comes with a feature-rich REST API, so you can use it in Lowcoder Apps or extend Lowcoder with new functionality.
 
-On [api-service.lowcoder.cloud](https://api-service.lowcoder.cloud/api/docs/webjars/swagger-ui/index.html#/) you can access this API as well, just some endpoints are not available.
-
 ## Authentication
 
 ### Session Cookie
@@ -95,15 +93,12 @@ In return, you will get a JSON response containing the API key
 
 For all further API Calls, you can then use the API Key, which impersonates the logged-in user, that created the API Key.
 
-{% hint style="warning" %}
-As the API Key impersonates the user, who created the API Key (based on the Cookie), all rights of that impersonated User are also active via API Key.&#x20;
-{% endhint %}
+As the API Key impersonates the user, who created the API Key (based on the Cookie), all rights of that impersonated User are also active via API Key.
 
 ## OpenAPI Specification & Postman Collection
 
 You can find more information of the specification & documentation here:\
-[https://docs.lowcoder.cloud/lowcoder-api-specification/api-reference-lowcoder](https://docs.lowcoder.cloud/lowcoder-api-specification/api-reference-lowcoder)\
-
+tbd
 
 The Base URL of the Lowcoder API depends on your installation.
 
@@ -128,13 +123,9 @@ https://<your-api-service-domain>/
 
 When you run Multi-Docker Deployment on Localhost, you will need to look for the [Bridge-Network Settings](https://www.baeldung.com/ops/docker-communicating-with-containers-on-same-machine) that apply to your setup.
 
-### app.lowcoder.cloud
 
-To use the API of the Cloud Version, the API is to reach via the separate API Service.
 
-```
-https://api-service.lowcoder.cloud/
-```
+
 
 Since Lowcoder v2.1.6 we publish the OpenAPI Specification and the Swagger Documentation automatically.
 
@@ -143,8 +134,8 @@ Swagger Documentation: <Lowcoder-Location>/api/docs/webjars/swagger-ui/index.htm
 OpenAPI Specification: <Lowcoder-Location>/api/docs/api-docs
 ```
 
-You can find the current API Documentation for example here: \
-[https://api-service.lowcoder.cloud/api/docs/webjars/swagger-ui/index.html#/](https://api-service.lowcoder.cloud/api/docs/webjars/swagger-ui/index.html#/)
+You can find the current API Documentation for example here:\
+tbd
 
 ## Using Lowcoder API - inside Lowcoder Apps
 
