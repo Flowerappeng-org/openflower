@@ -74,7 +74,7 @@ jobs:
         with:
           version: "lab:latest"
           driver: cloud
-          endpoint: "lowcoderorg/lowcoder-cloud-builder"
+          endpoint: "haighis/lowcoder-cloud-builder"
 
       - name: Build and push the all-in-one image
         if: ${{ env.BUILD_ALLINONE == 'true' }}
