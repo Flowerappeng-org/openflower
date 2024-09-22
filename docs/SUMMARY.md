@@ -130,7 +130,7 @@
   * [Day.js Date handling](lowcoder-extension/use-third-party-libraries-in-apps/day.js-date-handling.md)
   * [Import your own JavaScript Library](lowcoder-extension/use-third-party-libraries-in-apps/import-your-own-javascript-library.md)
 * [Custom component](lowcoder-extension/custom-component.md)
-* [Lowcoder Open REST API](lowcoder-extension/lowcoder-open-rest-api.md)
+* [Open REST API](lowcoder-extension/lowcoder-open-rest-api.md)
 
 ## Lowcoder for Enterprise
 
