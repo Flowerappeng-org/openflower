@@ -344,10 +344,10 @@ class AppIndex extends React.Component<AppIndexProps, any> {
                 path={ORG_AUTH_LOGIN_URL}
                 component={LazyUserAuthComp}
               />
-              <LazyRoute
+              {/* <LazyRoute
                 path={ORG_AUTH_REGISTER_URL}
                 component={LazyUserAuthComp}
-              />
+              /> */}
               <LazyRoute
                 path={ORG_AUTH_FORGOT_PASSWORD_URL}
                 component={LazyUserAuthComp}

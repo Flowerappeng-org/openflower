@@ -91,12 +91,12 @@ export type ThirdPartyAuthGoal = "register" | "login" | "bind" | "innerBind";
 export const AuthRoutes: Array<{ path: string; component: React.ComponentType<any> }> = [
   { path: AUTH_LOGIN_URL, component: Login },
   { path: AUTH_BIND_URL, component: ThirdPartyBindCard },
-  { path: AUTH_REGISTER_URL, component: UserRegister },
+  // { path: AUTH_REGISTER_URL, component: UserRegister },
   { path: AUTH_FORGOT_PASSWORD_URL, component: ForgotPassword },
   { path: AUTH_RESET_PASSWORD_URL, component: ResetPassword },
   { path: OAUTH_REDIRECT, component: AuthRedirect },
   { path: ORG_AUTH_LOGIN_URL, component: Login },
-  { path: ORG_AUTH_REGISTER_URL, component: UserRegister },
+  // { path: ORG_AUTH_REGISTER_URL, component: UserRegister },
   { path: ORG_AUTH_FORGOT_PASSWORD_URL, component: ForgotPassword },
   { path: ORG_AUTH_RESET_PASSWORD_URL, component: ResetPassword },
 ];
