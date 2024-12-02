@@ -103,7 +103,7 @@ export default function FormLogin(props: FormLoginProps) {
       </AccountLoginWrapper>
       <Divider/>
       <AuthBottomView>
-      <a href={'https://cloud.bitwebservices.com'}>{trans("userAuth.register")}</a>
+      <a href={'https://cloud.bitwebservices.com/auth-signup'}>{trans("userAuth.register")}</a>
         {/* <StyledRouteLink to={{
           pathname: orgId
             ? ORG_AUTH_REGISTER_URL.replace(':orgId', orgId)
