@@ -28,7 +28,7 @@ on:
         description: "Build the API service image"
         default: true
   push:
-    branches: dev
+    branches: main
     paths:
       - "client/**"
       - "server/**"
