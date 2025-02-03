@@ -13,7 +13,6 @@ services:
       - ./openflower-stacks/data/mongodb:/data/db
     restart: unless-stopped
     healthcheck: # https://github.com/rodrigobdz/docker-compose-healthchecks?tab=readme-ov-file#mongo
-      #test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
       test: echo 'db.runCommand("ping").ok' | mongo mongodb:27017/test --quiet
       # test:
       #   [
@@ -43,7 +42,7 @@ services:
   ## Start OpenFlower backend services (api-service and node-service)
   ##
   openflower-api-service:
-    image: flowerappengorg/openflower-api-service:beta1
+    image: flowerappengorg/openflower-api-service:latest
     container_name: openflower-api-service
     # Enabled ports to be able to access backend from host
     # ports:
@@ -118,7 +117,7 @@ services:
       retries: 10
 
   openflower-node-service:
-    image: flowerappengorg/openflower-node-service:beta1
+    image: flowerappengorg/openflower-node-service:latest
     container_name: openflower-node-service
     # Enabled ports to be able to access backend from host
     # ports:
@@ -142,7 +141,7 @@ services:
   ## Start OpenFlower web frontend
   ##
   openflower-frontend:
-    image: flowerappengorg/openflower-frontend:beta1
+    image: flowerappengorg/openflower-frontend:latest
     container_name: openflower-frontend
     ports:
       - "3000:3000"
