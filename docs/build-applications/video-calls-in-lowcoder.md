@@ -1,8 +1,12 @@
+---
+hidden: true
+---
+
 # Video Calls in OpenFlower
 
-Collaboration features, especially interactive video calls, in customer-facing and internal employee apps are crucial for modern Applications.&#x20;
+Collaboration features, especially interactive video calls, in customer-facing and internal employee apps are crucial for modern Applications.
 
-For customer-facing apps, this enhances engagement, provides immediate support, and personalizes the user experience, fostering customer satisfaction and loyalty.&#x20;
+For customer-facing apps, this enhances engagement, provides immediate support, and personalizes the user experience, fostering customer satisfaction and loyalty.
 
 For internal apps, it streamlines communication, enables real-time problem-solving, and promotes team cohesion, boosting productivity and innovation. Combining these collaboration tools ensures seamless interaction, reduces response times, and creates a more connected and efficient workflow, which is essential for maintaining a competitive edge and achieving business success.
 
@@ -16,7 +20,7 @@ To make the docs readable, we will name the user who is in a Video Meeting "**Yo
 
 ## Preparation
 
-To use Video Meetings based on Agora SDKs in OpenFlower, you need to create an Account with Agora.&#x20;
+To use Video Meetings based on Agora SDKs in OpenFlower, you need to create an Account with Agora.
 
 {% embed url="https://console.agora.io" %}
 
@@ -62,8 +66,7 @@ If you use App ID with Certificate, you will need the additional component to in
 1. **Enable App Certificate**: If you opted for "App ID with Certificate," you need to enable the App Certificate.
    * Go to the "Security" tab in your project settings.
    * Enable the App Certificate.
-   * Copy the App Certificate as it will be used to generate tokens.\
-
+   * Copy the App Certificate as it will be used to generate tokens.\\
 
 To use the App Certificate (a token-based additional security layer for your meetings and real-time communication), you will need to operate your own Token Server. This is easy, based on the prepared standard Docker image.
 
@@ -71,7 +74,7 @@ To use the App Certificate (a token-based additional security layer for your mee
 
 You can read more details about Agora [Token Management here](https://docs.agora.io/en/video-calling/get-started/authentication-workflow?platform=web). However, the public docker image and the ready integration in OpenFlower make it truly easy.
 
-The public Standard Docker Image of the Token Server needs 3 ENV Variables:&#x20;
+The public Standard Docker Image of the Token Server needs 3 ENV Variables:
 
 ```
 APP_CERTIFICATE // the key, copied from the Agora Project Console
@@ -193,7 +196,7 @@ The Camera Stream allows you to show your own Camera Stream or the Video Stream 
 The Camera Stream Component has 2 special features to enable good styling options.
 
 * Vide Aspect Ratio - a CSS property that, in combination with Auto-Height, makes sure that you have perfect squares/circles of the Camera Streams.
-* Profile Image URL - Here you can set an actual user Profile Image - or a Profile Image Generator like in our Example [https://www.dicebear.com/playground](https://www.dicebear.com/playground/). The Profile image is displayed as long as the Camera Video Stream is not active.&#x20;
+* Profile Image URL - Here you can set an actual user Profile Image - or a Profile Image Generator like in our Example [https://www.dicebear.com/playground](https://www.dicebear.com/playground/). The Profile image is displayed as long as the Camera Video Stream is not active.
 
 The Video Stream ID is the Meeting User ID.
 
@@ -210,13 +213,13 @@ The incoming Sharing Screen Stream, unfortunately, is currently in Agora Meeting
 
 ### Screen Share Stream
 
-The Screen Share Stream Component is almost identical to the Camera Stream component. It is meant to enable you to choose a place where to display Shareing Stream. Often this will be in a bigger content area.&#x20;
+The Screen Share Stream Component is almost identical to the Camera Stream component. It is meant to enable you to choose a place where to display Shareing Stream. Often this will be in a bigger content area.
 
 To set (display) the Sharing Stream of the local user (you), you can bind the value of **localUser.** `{{meetingController.localUser}}.`
 
 ## Realtime Messages
 
-In a Meeting Room, you can send and receive messages, either to all Attendees or to selected Users (selected Attendees).&#x20;
+In a Meeting Room, you can send and receive messages, either to all Attendees or to selected Users (selected Attendees).
 
 You can send messages as soon as the meeting has started. To do so, you can use the JavaScript Query and use, for example, a function call like this:
 
@@ -235,13 +238,11 @@ Messages sent in the Meeting Room (Channel) are collected for each Meeting Atten
 the Data Object **messages** will contain only the latest 100 Messages. As App Creator you are responsible for any further storage of these Messages.
 {% endhint %}
 
-
-
 ## Why Video Meetings in OpenFlower?
 
 <figure><img src="../.gitbook/assets/Agora Meetings  The Big Picture.png" alt=""><figcaption></figcaption></figure>
 
-A picture says more than 100 words. Or?&#x20;
+A picture says more than 100 words. Or?
 
 Despite all the amazing Developments in IT, the bridge between Meeting and "Working" or "Shopping," "Learning," or any other online Activity is not made.
 
