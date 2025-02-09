@@ -2,6 +2,8 @@
 
 * [OpenFlower overview](README.md)
   * [The "Hello World" tutorial](openflower-overview/the-hello-world-tutorial.md)
+* [Videos](videos-readme/README.md)
+  * [OpenFlower in 100 Seconds](videos-readme/openflower-in-100-seconds.md)
 
 ## 🆕 Setup and run
 
@@ -115,7 +117,6 @@
 * [Share an App](publish-apps/share-an-app.md)
 * [Publish an App](publish-apps/publish-an-app.md)
 * [Embedd an App](publish-apps/embedd-an-app/README.md)
-  <!-- * [Embed App in HTML Pages](publish-apps/embedd-an-app/embed-app-in-html-pages.md) -->
   * [Embed Apps in React](publish-apps/embedd-an-app/embed-apps-in-react.md)
   * [Native embed SDK](publish-apps/embedd-an-app/native-embed-sdk/README.md)
     * [Build the SDK from Source](publish-apps/embedd-an-app/native-embed-sdk/build-the-sdk-from-source.md)
@@ -130,4 +131,3 @@
   * [Import your own JavaScript Library](openflower-extension/use-third-party-libraries-in-apps/import-your-own-javascript-library.md)
 * [Custom component](openflower-extension/custom-component.md)
 * [OpenFlower Open REST API](openflower-extension/openflower-open-rest-api.md)
-
