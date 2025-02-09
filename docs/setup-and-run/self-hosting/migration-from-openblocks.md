@@ -1,10 +1,6 @@
----
-hidden: true
----
-
 # Migration from Openblocks
 
-With **OpenFlower v1.1.8** we created a drop-in replacement for **Openblocks** **v1.1.8**.\
+With **OpenFlower v1.1.8** we created a drop-in replacement for **Openblocks** **v1.1.8**. \
 To run it, no changes were required.
 
 However, to **migrate** from Openblocks or OpenFlower 1.1.8 to **OpenFlower 2.0,0**, some changes are required and these are the steps to be followed:
@@ -36,7 +32,8 @@ if not using OpenFlower v1.1.8 or the latest Openblocks released version (v1.1.8
 
 ### 4) Download the latest docker-compose file.
 
-download [docker-compose.yaml](https://raw.githubusercontent.com/lowcoder-org/lowcoder/main/deploy/docker/docker-compose.yaml) or [docker-compose-multi.yaml](https://raw.githubusercontent.com/lowcoder-org/lowcoder/main/deploy/docker/docker-compose-multi.yaml) file depending on which installation you prefer (all-in-one or multi-images)\\
+download [docker-compose.yaml](https://raw.githubusercontent.com/lowcoder-org/lowcoder/main/deploy/docker/docker-compose.yaml) or [docker-compose-multi.yaml](https://raw.githubusercontent.com/lowcoder-org/lowcoder/main/deploy/docker/docker-compose-multi.yaml) file depending on which installation you prefer (all-in-one or multi-images)\
+
 
 ### 5) Adapt standard values to your Installation
 
@@ -48,7 +45,7 @@ ENCRYPTION_SALT:
 MONGODB_URL:
 ```
 
-### 6) start your OpenFlower
+### 6) start your OpenFlower&#x20;
 
 {% tabs %}
 {% tab title="All-in-one Docker image" %}

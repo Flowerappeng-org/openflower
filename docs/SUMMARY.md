@@ -2,8 +2,8 @@
 
 * [OpenFlower overview](README.md)
   * [The "Hello World" tutorial](openflower-overview/the-hello-world-tutorial.md)
-* [Videos](videos-readme/README.md)
-  * [OpenFlower in 100 Seconds](videos-readme/openflower-in-100-seconds.md)
+* [Videos](readme-1/README.md)
+  * [OpenFlower in 100 seconds](readme-1/openflower-100-seconds.md)
 
 ## 🆕 Setup and run
 
